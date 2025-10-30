@@ -71,4 +71,22 @@ button {
     text-decoration: none;
 }
 
+/*Homepage code*/
 
+.bgcol{
+    background-color: #32733B;
+}
+
+.navbg{
+    background-color: gray;
+    display: flex;
+}
+
+nav, li {
+    display: flex;
+    justify-content: center;
+}
+
+.navlogo{
+    float: left;
+}

@@ -13,7 +13,7 @@ body{
     flex-direction: column;
     margin: 0;
 }
-
+/*Login and Register CSS*/
 .main {
     background-color: #51845D;
     border-radius: 15px;
@@ -78,7 +78,6 @@ button {
 }
 
 .navbg{
-    background-color: gray;
     display: flex;
 }
 

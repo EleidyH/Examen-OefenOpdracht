@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($stmt->execute()) {
         //echo "Registration Succesfull"
         //If register is succesfull will send them to homepage.
-        include ("homepage.html");
+        include ("Homepage.html");
     } else {
         echo "Error: " . $stmt->error;
     }

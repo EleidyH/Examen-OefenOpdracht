@@ -14,7 +14,7 @@ if ($row = $result->fetch_assoc()) {
     if (password_verify($password, $row['password'])) {
         //echo "Login successful!";
         //If login successfull will send them to the homepage.
-        include ("homepage.html");
+        include ("Homepage.html");
     } else {
         echo "Invalid password!";
     }
